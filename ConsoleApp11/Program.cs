@@ -5,7 +5,7 @@ public class Program
 
     static void Main(string[] args)
     {
-        Console.Write("Choose the option\n [1]Single / [2]Multi --> ");
+        Console.Write("Choose the option\n 1.Single / 2.Multi  ");
         int sin_mul_choice = Convert.ToInt32(Console.ReadLine());
 
         cancellationTokenSource = new CancellationTokenSource();
